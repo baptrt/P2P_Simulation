@@ -217,7 +217,7 @@ module MarketSimulation
             else
                 # Agent mixte
                 a[i] = 1
-                b[i] = 0  
+                b[i] = 0.5  
                 pmax[i] = 15
                 pmin[i] = -15
                 tmax[i] = pmax[i]
